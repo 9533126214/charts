@@ -299,26 +299,6 @@ gcs:
   ## external to the chart. the key for that secret should be `key.json`.
   secretName:
 
-# AWS Simple Storage Service
-s3:
-  enabled: false
-  bucket: "<S3-BUCKET-NAME>"
-  # rootFolder: "front50"
-  # region: "us-east-1"
-  # endpoint: ""
-  # accessKey: ""
-  # secretKey: ""
-  # assumeRole: "<role to assume>"
-  ## Here you can pass extra arguments to configure s3 storage options
-  extraArgs: []
-  #  - "--path-style-access true"
-
-# Azure Storage Account
-azs:
-  enabled: false
-#   storageAccountName: ""
-#   accessKey: ""
-#   containerName: "spinnaker"
 
 rbac:
   # Specifies whether RBAC resources should be created
